@@ -1,0 +1,139 @@
+@media (max-width:991px){
+    html{
+    font-size: 55.5%;
+
+    }
+    .header{
+        padding: 1rem 2rem;
+    }
+ 
+    section{
+        padding:2rem ;
+    }
+    .home{
+        padding-top: 5rem;
+       
+    }
+    .hero{
+        grid-template-columns: 1fr;
+        gap:2rem  ;
+    }
+   .hero-text{
+    text-align: center;
+   }
+.hero-text h3{
+    font-size: 2.4rem;
+    
+    }
+    
+    .hero-text h1{
+     font-size: 6.4rem;
+     
+    }
+    .hero-text p{
+      font-size: 1.8rem;
+      
+    }
+    
+.hero img{
+    width: 70%;
+    margin-left: 15%;
+  }
+  #about{
+    text-align: center;
+
+  }
+    .grid{
+  grid-template-columns: 1fr 1fr ;
+
+    }
+.about-us{
+grid-template-columns: 1fr ;
+height: 100vh;
+    
+}
+
+.about-us img{
+    width: 50%;
+    margin-left: 25%;
+    }
+    #about h2{
+        font-size: 2.8rem;
+        }
+        #about p {
+          text-align: center;
+         
+        }
+
+        #menu{
+  
+          text-align: center;
+          
+        
+        }
+        .box-container{
+            grid-template-columns: 1fr 1fr ;
+          }
+       
+       
+}
+@media (max-width:786px){
+    html{
+    font-size: 50%;
+
+    }
+    header .icons #menu-bars{
+        display: inline-block;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left:0; right:0;
+        background:#fff;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        border-bottom: .1rem solid rgba(0,0,0,.2);
+        padding:1rem;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+header .navbar a{
+    display: block;
+    padding:1.5rem;
+    margin:1rem;
+    font-size: 2rem;
+    background:#eee;
+}
+}
+
+ 
+
+  @media (max-width:540px){
+    .hero img{
+        width: 100%;
+        margin-left: 5%;
+      }
+
+      .grid{
+        grid-template-columns: 1fr ;
+      
+          }
+
+          .box-container{
+            grid-template-columns: 1fr  ;
+          }
+          .footer-grid{
+            
+            grid-template-columns: 1fr 1fr ;
+          }
+          .about-us img{
+            width: 70%;
+            margin-left: 15%;
+            }
+            #about p {
+              text-align: center;
+             font-size: 1.5rem;
+            }
+  }
